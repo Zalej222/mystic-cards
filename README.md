@@ -1,70 +1,166 @@
-# Getting Started with Create React App
+# Mystic Cards
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Tarotová React aplikace zaměřená na:
 
-## Available Scripts
+* přehled tarotových karet,
+* denní kartu,
+* tarotové výklady,
+* práci s tarotovými významy.
 
-In the project directory, you can run:
+Projekt vzniká jako studijní React aplikace se zaměřením na:
 
-### `npm start`
+* React komponenty,
+* práci s daty,
+* routing,
+* state management,
+* organizaci projektu.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Použité technologie
 
-### `npm test`
+* React
+* JavaScript
+* CSS
+* React Router DOM
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+# Struktura projektu
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```txt
+src/
+│
+├── components/
+│   ├── Navbar.jsx
+│   ├── Navbar.css
+│
+├── pages/
+│   ├── CardList.jsx
+│   ├── CardList.css
+│   ├── DailyCard.jsx
+│   ├── Reading.jsx
+│
+├── data/
+│   ├── data.js
+│   ├── dailyCardMeanings.js
+│
+├── App.js
+├── index.js
+├── index.css
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Aktuální funkcionalita
 
-### `npm run eject`
+## Přehled tarotových karet
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Aplikace aktuálně obsahuje:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* zobrazení tarotových karet,
+* detail karty,
+* obrázek karty,
+* základní význam karty.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Tarotová data
 
-## Learn More
+Každá karta obsahuje:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```js
+{
+   id,
+   name,
+   arcana,
+   number,
+   element,
+   description,
+   imageUrl
+}
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## Denní významy karet
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Soubor:
 
-### Analyzing the Bundle Size
+```txt
+src/data/dailyCardMeanings.js
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+obsahuje:
 
-### Making a Progressive Web App
+* energii dne,
+* zprávu,
+* doporučení,
+* afirmaci.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Významy jsou propojeny pomocí `id` karty.
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+# Plánované funkce
 
-### Deployment
+* Homepage
+* Navbar navigace
+* Denní karta
+* Random tahání karet
+* Výklad 3 karet
+* Tarotové spready
+* Animace karet
+* Responsivní design
+* Filtrace karet
+* Temný mystický design
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+# Spuštění projektu
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Instalace
+
+```bash
+npm install
+```
+
+---
+
+## Spuštění vývojového serveru
+
+```bash
+npm start
+```
+
+---
+
+# Git workflow
+
+## Přidání změn
+
+```bash
+git add .
+```
+
+---
+
+## Commit
+
+```bash
+git commit -m "Create tarot app structure and daily card meanings"
+```
+
+---
+
+## Push na GitHub
+
+```bash
+git push origin main
+```
+
+---
+
+# Autor
+
+Jana Zálešáková

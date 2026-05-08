@@ -1,0 +1,139 @@
+.card-list {
+   width: 90%;
+   max-width: 1400px;
+   margin: 2rem auto;
+   padding: 1rem;
+}
+
+h1 {
+   text-align: center;
+   margin-bottom: 1rem;
+   font-size: 3.5rem;
+   font-family: 'Raleway', sans-serif;
+   color: #c9a952;
+   text-shadow: 0 0 12px rgba(194, 120, 255, 0.6);
+}
+
+h2 {
+   color: #e7b26d;
+   font-size: 2.4rem;
+   font-weight: bold;
+   margin-bottom: 1rem;
+   text-align: center;
+   padding-top: 3rem;
+}
+
+h3 {
+   color: #ffe8ff;
+   margin-bottom: 0.8rem;
+   font-size: 1.3rem;
+}
+
+p {
+   color: #e6dff0;
+   line-height: 1.6;
+}
+
+.cards-description {
+   max-width: 900px;
+   margin: 0 auto 2rem auto;
+   text-align: center;
+   color: #d9c8f3;
+   font-size: 1rem;
+   line-height: 1.8;
+}
+
+.cards-row {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+   gap: 24px;
+   margin-bottom: 2rem;
+}
+
+.card {
+   background: rgba(255, 255, 255, 0.08);
+   border: 1px solid rgba(255, 255, 255, 0.12);
+   border-radius: 22px;
+   padding: 1.5rem;
+   text-align: center;
+   cursor: pointer;
+
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+
+   backdrop-filter: blur(10px);
+
+   transition: all 0.3s ease;
+
+   box-shadow:
+      0 6px 20px rgba(0, 0, 0, 0.25),
+      0 0 12px rgba(180, 120, 255, 0.15);
+}
+
+.card:hover {
+   transform: translateY(-6px) scale(1.02);
+
+   box-shadow:
+      0 12px 28px rgba(0, 0, 0, 0.35),
+      0 0 20px rgba(212, 130, 255, 0.35);
+}
+
+.card-content {
+   min-height: 10px;
+}
+
+.card img {
+   width: 9rem;
+   height: auto;
+   margin: 1rem auto 0 auto;
+   display: block;
+   transition: transform 0.3s ease;
+}
+
+.card:hover img {
+   transform: scale(1.05);
+}
+
+/* DETAIL KARTY */
+
+.card-detail {
+   max-width: 800px;
+   margin: 3rem auto;
+   padding: 2rem;
+   text-align: center;
+
+   background: rgba(255, 255, 255, 0.08);
+   border-radius: 24px;
+
+   backdrop-filter: blur(10px);
+
+   box-shadow:
+      0 10px 30px rgba(0, 0, 0, 0.3),
+      0 0 20px rgba(180, 120, 255, 0.2);
+}
+
+.detail-image {
+   width: 320px;
+   max-width: 100%;
+   margin: 2rem auto;
+   display: block;
+}
+
+.back-button {
+   background: linear-gradient(135deg, #968d2e, #92697d);
+   color: white;
+   border: none;
+   padding: 12px 24px;
+   border-radius: 14px;
+   cursor: pointer;
+   font-size: 1rem;
+   font-weight: bold;
+   margin-bottom: 2rem;
+   transition: all 0.3s ease;
+}
+
+.back-button:hover {
+   transform: scale(1.05);
+   box-shadow: 0 0 18px rgba(236, 72, 153, 0.5);
+}
