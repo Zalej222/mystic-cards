@@ -7,6 +7,7 @@ const CardList = () => {
     const [selectedCard, setSelectedCard] = useState(null);
 
     return (
+
         <div className="card-list">
 
             <h1>Přehled tarotových karet</h1>

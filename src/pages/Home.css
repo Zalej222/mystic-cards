@@ -1,0 +1,61 @@
+.home {
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    color: white;
+
+    padding: 2rem;
+}
+
+.hero {
+    max-width: 900px;
+}
+
+.hero h1 {
+    font-size: 5rem;
+
+    color: gold;
+
+    margin-bottom: 2rem;
+}
+
+.hero p {
+    font-size: 1.5rem;
+
+    line-height: 1.8;
+
+    margin-bottom: 3rem;
+}
+
+.home-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+
+    flex-wrap: wrap;
+}
+
+.home-buttons button {
+    padding: 1rem 2rem;
+
+    font-size: 1.1rem;
+
+    border: none;
+    border-radius: 10px;
+
+    background: gold;
+    color: black;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.home-buttons button:hover {
+    transform: scale(1.05);
+}
