@@ -9,7 +9,7 @@ const Navbar = () => {
         <nav className="navbar">
 
             <h2 className="logo">
-                Mystické karty
+                Mystický tarot
             </h2>
 
             <div className="nav-links">

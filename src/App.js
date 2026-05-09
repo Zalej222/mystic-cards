@@ -19,31 +19,36 @@ function App() {
 
       <Navbar />
 
-      <Routes>
+      <main>
 
-        <Route
-          path="/"
-          element={<Home />}
-        />
+        <Routes>
 
-        <Route
-          path="/cards"
-          element={<CardList />}
-        />
+          <Route
+            path="/"
+            element={<Home />}
+          />
 
-        <Route
-          path="/daily-card"
-          element={<DailyCard />}
-        />
+          <Route
+            path="/cards"
+            element={<CardList />}
+          />
 
-        <Route
-          path="/reading"
-          element={<Reading />}
-        />
+          <Route
+            path="/daily-card"
+            element={<DailyCard />}
+          />
 
-      </Routes>
+          <Route
+            path="/reading"
+            element={<Reading />}
+          />
+
+        </Routes>
+
+      </main>
 
     </BrowserRouter>
+
   );
 }
 

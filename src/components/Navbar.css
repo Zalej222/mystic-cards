@@ -1,34 +1,76 @@
 .navbar {
+
     display: flex;
+
     justify-content: space-between;
+
     align-items: center;
 
-    padding: 1rem 2rem;
+    padding: 1.2rem 5rem;
 
-    background: rgba(10, 10, 20, 0.95);
+    background-image:
+        linear-gradient(
+            rgba(15, 10, 25, 0.72),
+            rgba(15, 10, 25, 0.78)
+        ),;
 
-    border-bottom: 1px solid rgba(255,255,255,0.1);
+    background-size: cover;
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    backdrop-filter: blur(12px);
+
+    border-bottom: 1px solid rgba(255, 215, 0, 0.15);
+
+    box-shadow:
+        0 0 25px rgba(180, 120, 255, 0.18),
+        0 0 50px rgba(120, 70, 255, 0.08);
 }
 
 .logo {
+
     color: gold;
+
     font-size: 2rem;
+
+    margin: 0;
+
+    padding: 0;
+
+    max-width: none;
+
+    text-align: left;
+
+    text-shadow:
+        0 0 10px rgba(255, 215, 0, 0.35);
 }
 
 .nav-links {
+
     display: flex;
+
     gap: 2rem;
 }
 
 .nav-links a {
+
     color: white;
+
     text-decoration: none;
 
     font-size: 1.1rem;
 
     transition: 0.3s;
+
+    position: relative;
 }
 
 .nav-links a:hover {
+
     color: gold;
+
+    text-shadow:
+        0 0 10px rgba(255, 215, 0, 0.35);
 }

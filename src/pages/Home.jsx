@@ -10,7 +10,7 @@ const Home = () => {
             <div className="hero">
 
                 <h1>
-                    Mystic Cards
+                    Tarotové karty
                 </h1>
 
                 <p>

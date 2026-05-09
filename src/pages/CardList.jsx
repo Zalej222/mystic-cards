@@ -25,7 +25,9 @@ const CardList = () => {
                         ← Zpět
                     </button>
 
-                    <h2>{selectedCard.name}</h2>
+                    <h2 className="card-group-description">
+                        {selectedCard.name}
+                    </h2>
 
                     <img
                         className="detail-image"
@@ -44,7 +46,9 @@ const CardList = () => {
                 <>
 
                     {/* VELKÉ ARKÁNY */}
-                    <h2>Velké arkány</h2>
+                    <h2 className="card-group-description">
+                        Velké arkány
+                    </h2>
 
                     <div className="cards-description">
                         {sections.find((section) => section.id === 1)?.description}
@@ -73,7 +77,9 @@ const CardList = () => {
                     </div>
 
                     {/* HOLE */}
-                    <h2>Hole</h2>
+                    <h2 className="card-group-description">
+                        Hole
+                    </h2>
 
                     <div className="cards-description">
                         {sections.find((section) => section.id === 2)?.description}
@@ -102,7 +108,9 @@ const CardList = () => {
                     </div>
 
                     {/* POHÁRY */}
-                    <h2>Poháry</h2>
+                    <h2 className="card-group-description">
+                        Poháry
+                    </h2>
 
                     <div className="cards-description">
                         {sections.find((section) => section.id === 3)?.description}
@@ -131,7 +139,9 @@ const CardList = () => {
                     </div>
 
                     {/* MEČE */}
-                    <h2>Meče</h2>
+                    <h2 className="card-group-description">
+                        Meče
+                    </h2>
 
                     <div className="cards-description">
                         {sections.find((section) => section.id === 4)?.description}
@@ -160,7 +170,9 @@ const CardList = () => {
                     </div>
 
                     {/* PENTAKLY */}
-                    <h2>Pentakly</h2>
+                    <h2 className="card-group-description">
+                        Pentakly
+                    </h2>
 
                     <div className="cards-description">
                         {sections.find((section) => section.id === 5)?.description}
