@@ -22,61 +22,26 @@ h2 {
     padding: 0 1rem;
 }
 
-/* BUTTON */
+.button-wrapper{
 
-.button-pick-card {
-    display: block;
-    margin: 0 auto 3rem auto;
-   padding: 1rem 2rem;
+    display: flex;
 
-    font-size: 1.1rem;
+    justify-content: center;
 
-    border: none;
-    border-radius: 10px;
-
-    background: gold;
-    color: black;
-
-    cursor: pointer;
-
-    transition: 0.3s;
-}
-
-.button-pick-card:hover {
-
-       transform: scale(1.05);
-}
-
-/* DAILY CARD */
-
-.daily-card {
-
-   max-width: 50rem;
-
-   margin: 3rem auto;
-
-   padding: 2rem;
-
-   background: rgba(20, 10, 30, 0.75);
-
-   box-shadow: 0 0 30px rgba(180, 120, 255, 0.25);
-
-   border-radius: 1rem;
-
-   backdrop-filter: blur(8px);
-
-   text-align: center;
+    margin-bottom: 3rem;
 }
 
 .daily-card img {
+  display: block;
+
+    margin: 0 auto;
+    
 
    width: 100%;
 
    max-width: 18rem;
 
    border-radius: 1rem;
-
-   margin: 1.5rem 0;
 
    box-shadow: 0 0 20px rgba(180, 120, 255, 0.3);
 }

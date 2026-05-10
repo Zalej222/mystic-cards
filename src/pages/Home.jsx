@@ -1,5 +1,6 @@
 import "./Home.css";
 import { Link } from "react-router-dom";
+import Button from "../components/Button";
 
 const Home = () => {
 
@@ -21,21 +22,21 @@ const Home = () => {
                 <div className="home-buttons">
 
                     <Link to="/cards">
-                        <button>
+                        <Button>
                             Prohlédnout karty
-                        </button>
+                        </Button>
                     </Link>
 
                     <Link to="/daily-card">
-                        <button>
+                        <Button>
                             Denní karta
-                        </button>
+                        </Button>
                     </Link>
 
                     <Link to="/reading">
-                        <button>
+                        <Button>
                             Výklad
-                        </button>
+                        </Button>
                     </Link>
 
                 </div>

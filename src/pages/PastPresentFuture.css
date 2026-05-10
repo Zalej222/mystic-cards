@@ -1,0 +1,38 @@
+.ppf {
+    text-align: center;
+
+    color: white;
+}
+
+.ppf {
+    text-align: center;
+}
+
+.ppf h1 {
+    color: gold;
+}
+
+.ppf p {
+    max-width: 700px;
+
+    margin: 0 auto;
+}
+
+.ppf img {
+    display: block;
+
+    margin: 2rem auto;
+}
+
+.ppf ul {
+    list-style: none;
+    margin: 2rem auto;
+    padding: 0;
+}  
+
+.ppf .button-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}

@@ -1,6 +1,6 @@
 import "./Navbar.css";
-
 import { Link } from "react-router-dom";
+import { useState } from "react";
 
 const Navbar = () => {
 
@@ -15,7 +15,7 @@ const Navbar = () => {
             <div className="nav-links">
 
                 <Link to="/">
-                    Karty
+                    Domovská stránka
                 </Link>
 
                 <Link to="/daily-card">

@@ -10,6 +10,7 @@ import Home from "./pages/Home";
 import CardList from "./pages/CardList";
 import DailyCard from "./pages/DailyCard";
 import Reading from "./pages/Reading";
+import PastPresentFuture from "./pages/PastPresentFuture";
 
 function App() {
 
@@ -42,6 +43,12 @@ function App() {
             path="/reading"
             element={<Reading />}
           />
+
+          <Route
+            path="/past-present-future"
+            element={<PastPresentFuture />}
+          />
+
 
         </Routes>
 

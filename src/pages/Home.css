@@ -12,6 +12,18 @@
     padding: 2rem;
 }
 
+.home-buttons {
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    gap: 1rem;
+
+    margin-top: 2rem;
+}
+
 .hero {
     max-width: 900px;
 }
@@ -32,30 +44,6 @@
     margin-bottom: 3rem;
 }
 
-.home-buttons {
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
-
-    flex-wrap: wrap;
-}
-
-.home-buttons button {
-    padding: 1rem 2rem;
-
-    font-size: 1.1rem;
-
-    border: none;
-    border-radius: 10px;
-
-    background: gold;
-    color: black;
-
-    cursor: pointer;
-
-    transition: 0.3s;
-}
-
-.home-buttons button:hover {
-    transform: scale(1.05);
+.home a {
+    text-decoration: none;
 }

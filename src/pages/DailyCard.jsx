@@ -2,6 +2,7 @@ import dailyCardMeanings from "../data/dailyCardMeanings";
 import data from "../data/data";
 import { useState } from "react";
 import "./DailyCard.css";
+import Button from "../components/Button";
 
 function DailyCard() {
 
@@ -28,17 +29,17 @@ function DailyCard() {
             <h1>Denní karta</h1>
 
             <h2>
-                Každý den přináší novou energii a nové možnosti.
-                Denní karta ti může pomoci lépe porozumět své cestě,
-                pocitům i rozhodnutím, která jsou před tebou.
+                Každý den přináší novou energii a nové možnosti.  <br />
+                Na chvíli se zastav, mysli na svůj den a vyber si kartu, která ti může pomoci lépe porozumět své cestě, pocitům i rozhodnutím, která jsou před tebou.
             </h2>
 
-            <button
-                className="button-pick-card"
-                onClick={pickCard}
-            >
-                Vybrat kartu
-            </button>
+            <div className="button-wrapper"> 
+                <Button
+                    onClick={pickCard}
+                >
+                    Vybrat kartu
+                </Button>
+            </div>
 
             {card && (
 
