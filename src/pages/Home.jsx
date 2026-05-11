@@ -15,8 +15,27 @@ const Home = () => {
                 </h1>
 
                 <p>
-                    Objev tajemství tarotových karet,
-                    denní poselství a tarotové výklady.
+                    Tarotové karty nejsou jen náhodné obrázky.
+                    Jsou zrcadlem naší intuice, emocí a energie,
+                    kterou právě prožíváme.
+
+                    <br /><br />
+
+                    Každá karta přichází ve správný okamžik
+                    a může ti pomoci lépe porozumět své cestě,
+                    pocitům i rozhodnutím.
+
+                    <br /><br />
+
+                    Nezáleží na tom, jestli držíš skutečné karty v ruce
+                    nebo vybíráš digitálně.
+                    Důležitý je tvůj záměr, soustředění a energie,
+                    kterou do výkladu vkládáš.
+
+                    <br /><br />
+
+                    I náhodně vybraná karta může nést přesně to poselství,
+                    které právě potřebuješ slyšet.
                 </p>
 
                 <div className="home-buttons">
